@@ -1,0 +1,16 @@
+svg {
+  & #strawberrys {
+    transform-origin: center;
+    transform: rotate(0deg);
+    animation: rotate 120s infinite linear;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
+
+//  colors
+$background-color: #fffdf5;
+$text-color: #4d4c4e;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  color: $text-color;
+}
+
+.hand-writing {
+  font-family: "Leckerli One", cursive;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: $background-color;
+}
+
+@import "./placeholder";
